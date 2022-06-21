@@ -1,6 +1,7 @@
 #creat a list using []
 a = [1,2,3,4,5,]
 print(a)
+print(sum(a))   # sum(a) is a finction to calculate the sum of the elements
 
 #access using index
 print(a[0])
@@ -30,7 +31,7 @@ l1.sort()       #sort the list
 print(l1)
 
 l1.reverse()    #reverse the lists
-print(l1)
+print(l1)   
 
 l1.append(45)    #add a new item to the list
 print(l1)
