@@ -55,4 +55,4 @@ num = int(num)    #type casting of num from string to integer
 print("After type casting",type(num))
 print(num + 50)
 
-
+                    
