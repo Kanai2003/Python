@@ -1,3 +1,5 @@
+#This code is not mine , copied from internet just for fun :)
+
 import turtle
 from turtle import*
 

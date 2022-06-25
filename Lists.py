@@ -46,8 +46,3 @@ l1.remove()     #remove the item from the list using value
 print(l1)
 
 
-
-
-
-
-

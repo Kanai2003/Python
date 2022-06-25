@@ -1,3 +1,5 @@
+#This code is not mine ,copied this code just for fun :)
+
 # Import the turtle library for
 # drawing the required curve
 import turtle as tt
