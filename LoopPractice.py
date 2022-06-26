@@ -35,5 +35,24 @@
 #     print(" "*(n-i-1))
 
 
+#5. Parrern problem
+# n = int(input("Enter number"))
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print(j,end="")
+#     print()
 
 
+
+#pattern problem
+n = int(input("Enter pattern :"))
+for i in range(n,0,-1):
+    for j in range(int(i*(i+1)/2)-i+1,int(i*(i+1)/2)+1):
+        print(str(j)+"  ", end="")
+    print()
+
+
+
+
+
+    
