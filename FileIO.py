@@ -28,12 +28,12 @@ f.close()       #close the file
 
 
 #using "with" statement -------------------------------
-#Best way to open and close the file is by using "with" statement like this
+#Best way to open and close the file is by using "with" statement like this because we don't need to close 
 
 with open('File.txt', 'r') as f:    
-    print(f.read())
+    print(f.read().lower())   # ".lower()" function is used to read the file's all contents in lower case
 
 
-
-
+# os.remove('File.txt')     # os.remove(file_name) function is use to remove/delete a file
+                            # to use os.remove(file_name) function we need to import "os"
 
