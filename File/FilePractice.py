@@ -1,4 +1,4 @@
-with open("python/FilePractice.txt","a") as f:
+with open("python/File/FilePractice.txt","a") as f:
     p = 'y'
     while(p == "y"):
         f.write(input("Enter Question \n"))
