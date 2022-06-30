@@ -25,7 +25,7 @@ class Employee :
 
 
 Kanai = Employee("Kanai","100k","YouTube")
-Kanai.greeting()
-Kanai.getDetails()
+# Kanai.greeting()
+# Kanai.getDetails()
 
 

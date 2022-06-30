@@ -27,7 +27,7 @@ print(type(a),type(b),type(c),type(d),type(e)) # Print all Date of veriables usi
 
 
 
-# Arithmetic Operators are : + , - , * , / , % , *= , /= , += , -=
+# Arithmetic Operators are : + , - , * , / , % , *= , /= , += , -= , ** (** is power of)
 
 #Comperision Operators  are : == , != , > , >= , < , <= 
 
