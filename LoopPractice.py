@@ -45,14 +45,20 @@
 
 
 #pattern problem
-n = int(input("Enter pattern :"))
-for i in range(n,0,-1):
-    for j in range(int(i*(i+1)/2)-i+1,int(i*(i+1)/2)+1):
-        print(str(j)+"  ", end="")
-    print()
+# n = int(input("Enter pattern :"))
+# for i in range(n,0,-1):
+#     for j in range(int(i*(i+1)/2)-i+1,int(i*(i+1)/2)+1):
+#         print(str(j)+"  ", end="")
+#     print()
 
 
-
+#pattern problem
+# n=5
+# for i in range (1,n+1):
+#     for j in range(1,n+1-i) :
+#         print(" ",end="")
+#     for j in range(1,i*2):
+#         print(i,end="")
 
 
     
