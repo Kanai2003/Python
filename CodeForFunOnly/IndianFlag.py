@@ -1,4 +1,4 @@
-#This code is not mine , copied from internet just for fun :)
+#This code is not mine , copied from internet just for fun :) 
 
 import turtle
 from turtle import*
@@ -8,7 +8,7 @@ screen = turtle.Screen()
 
 # Defining a turtle Instance
 t = turtle.Turtle()
-speed(0)
+speed(10)
 
 # initially penup()
 t.penup()
