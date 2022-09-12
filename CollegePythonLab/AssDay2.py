@@ -1,4 +1,18 @@
 '''
+Name : Kanailal Manna
+Roll : 18700121039
+Year : 2nd 
+Dept : CSE - A
+Paper Code : PCC-CS393
+Assignment : Day-2
+'''
+
+
+
+
+
+'''
+------------------------------------------------------------------------------
 1.
 Write a python script to sort (assending and descending) a dictionary by value 
 input = {0:1,1:2,2:1,3:4,4:3}
@@ -20,6 +34,7 @@ output =
 
 
 '''
+----------------------------------------------------------------------------------
 2. Write a python program to remove the nth index character from a non empty string 
 input =python 
 	 3
@@ -36,6 +51,7 @@ output=pyhon
 
 
 '''
+--------------------------------------------------------------------------------
 3. use x list as the key and y list as value of z dictionary
 
 input = 
@@ -57,13 +73,15 @@ z={1:’sachin’, 2:’sourav’,3:’rahul’,r:’dhoni’]
 
 
 '''
+---------------------------------------------------------------------------------
 4. 
 x={ 10:{‘a’:11},5:{‘b’:21},{7:{‘c’:9},3:{‘d’:15},11:{} }
 Considering the above mentioned dictionary suppose
 a,b,c,d-> passenger name
 10 ( for a) ,5 (for b) ,7 (for c) ,3 (for d), 11 (empty) -> compartment no
 11 ( for a) ,21 (for b) ,9 (for c) ,15 (for d) -> seat no of the passenger
-Write a python program to  search the compartment no and seat no of any passenger taking the passenger name as input and also display which compartment is empty
+Write a python program to  search the compartment no and seat no of any passenger taking the passenger 
+name as input and also display which compartment is empty
 
 input =
                 x={ 10: {‘a’:11}, 5:{‘b’:21}, {7:{‘c’:9},3: {‘d’:15}, 11:{}  }
@@ -82,24 +100,24 @@ empty compartment no =11
 
 
 
-x = {10:{'a':11},5:{'b':21},7:{'c':9},3:{'d':15},11:{} }
+# x = {10:{'a':11},5:{'b':21},7:{'c':9},3:{'d':15},11:{} }
 
-empty =[]
-bool = 0
-ch = input("Enter passenger's Name : ")
+# empty =[]
+# bool = 0
+# ch = input("Enter passenger's Name : ")
 
-for k, dic in x.items():
-    if len(dic) == 0:
-        empty.append(k)
-    elif ch in list(dic.keys()):
-            print("compartment no: " + str(k))
-            print("seat no: " + str(dic[ch]))
-            bool = 1
+# for k, dic in x.items():
+#     if len(dic) == 0:
+#         empty.append(k)
+#     elif ch in list(dic.keys()):
+#             print("compartment no: " + str(k))
+#             print("seat no: " + str(dic[ch]))
+#             bool = 1
 
-if (bool == 0):
-    print("passenger not found")
+# if (bool == 0):
+#     print("passenger not found")
     
-print("empty compartments : " + str(empty))
+# print("empty compartments : " + str(empty))
 
 
 
