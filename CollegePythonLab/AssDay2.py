@@ -72,9 +72,40 @@ print(dic)
 
 
 
+
+
+'''
+------------------------------------------------------------------------------------------
+4.
+Write a python script to check if a given key already is exists in a dictionary
+Input = 
+    {1:10,2:20,3:30,4:40,5:50,6:60}
+    2
+
+Output = 
+    Key is present
+
+'''
+
+
+dic = {1:10,2:20,3:30,4:40,5:50,6:60}
+key = int(input("Enter key to check : "))
+def checkKey(dic, key):
+    if key in dic.keys():
+        print("Key is Present :)")
+    else:
+        print("Key is Not present :(")
+
+checkKey(dic,key )
+
+
+
+
+
+
 '''
 ---------------------------------------------------------------------------------
-4. 
+5. 
 x={ 10:{‘a’:11},5:{‘b’:21},{7:{‘c’:9},3:{‘d’:15},11:{} }
 Considering the above mentioned dictionary suppose
 a,b,c,d-> passenger name
