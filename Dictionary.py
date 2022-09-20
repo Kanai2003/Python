@@ -34,7 +34,6 @@ update_dict = {
     "Ritam" : "Friend",
     "Shubham" : "Friend",
     "Adrija" : "Friend",
-    "Ritwika" : "Friend"
 }
 
 myDict.update(update_dict)      #updating/marging  myDict dictionary  with the new dictionary named as update_dict 

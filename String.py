@@ -26,6 +26,6 @@ print(story.endswith("ness"))     #it will check if String is ending with "ness"
 print(story.count("a"))     #it will count number of any characters or word etc.
 print(story.capitalize())   #it will print capitalized string 
 print(story.find("my"))     #it will check and print index of any characters or word etc.
-print(story.replace("Kanai", "Rit"))    #it will replace Kanai with Rit
+print(story.replace("Kanai", "Ritam"))    #it will replace Kanai with Rit
 
 
