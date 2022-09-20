@@ -21,7 +21,8 @@ f = open('File.txt')       #By default mode is 'r'/read
 # print(f.read(5))    #we can also define like this to read 5 characters
 
 print(f.readline())   # .readline() function is use  to read a line of the file
-print(f.readline())   #we can also define like this to read next line of the file
+print(f.readline())   # we can also define like this to read next line of the file
+print(f.readlines())    #read all lines of the file and return list format 
 
 f.close()       #close the file 
 
