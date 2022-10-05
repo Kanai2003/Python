@@ -1,17 +1,22 @@
-def maxArea(A):
-        l = 0
-        r = len(A) -1
-        area = 0
-     
-        while l < r:
-            # Calculating the max area
-            area = max(area, min(A[l],A[r]) * (r - l))
-     
-            if A[l] < A[r]:
-                l += 1
-            else:
-                r -= 1
-        return area
+def maxWater(arr, n):
+
+    res = 0
+    for i in range(1, n - 1):
+
+        l = arr[i]
+        for j in range(i):
+            l = max(l, arr[j])
+
+        r = arr[i]
+ 
+        for j in range(i + 1, n):
+            r = max(r, arr[j])
+
+        res = res + (min(l, r) - arr[i])
+ 
+    return res
+ 
+ 
 
 
         
